@@ -1,0 +1,25 @@
+{
+  "name": "raven-node-multiple-errors",
+  "version": "1.0.0",
+  "description": "Test repo for issue where Raven's `requestHandler` attempts to call `next` multiple times.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wearhere/raven-node-multiple-errors.git"
+  },
+  "author": "Jeff Wear <jeff@mixmax.com> (https://mixmax.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wearhere/raven-node-multiple-errors/issues"
+  },
+  "homepage": "https://github.com/wearhere/raven-node-multiple-errors#readme",
+  "devDependencies": {
+    "express": "^4.15.2",
+    "jasmine": "^2.5.3",
+    "raven": "^1.2.1",
+    "supertest": "^3.0.0"
+  }
+}
